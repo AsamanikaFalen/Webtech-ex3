@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SNU HOME</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Link to Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<style>
+		div.gallery {
+			margin: 5px;
+			border: 1px solid #ccc;
+			float: left;
+			width: 180px;
+		}
+
+		div.gallery:hover {
+			border: 1px solid #777;
+		}
+
+		div.gallery img {
+			width: 100%;
+			height: auto;
+		}
+
+		div.desc {
+			padding: 15px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="bg-primary py-2">
+		<div class="container">
+			<h1 class="text-white">Seoul National University</h1>
+		</div>
+	</div>
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+		<div class="container">
+			<a class="navbar-brand" href="#">SNU HOME</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item active">
+						<a class="nav-link" href="https://en.snu.ac.kr/about/campus/gwanak/address">Gwanak Campus</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://en.snu.ac.kr/about/campus/yongon">Yeongeon Campus</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://en.snu.ac.kr/about/campus/pyeongchang">Pyongchang Campus</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://en.snu.ac.kr/about/campus/siheung">Siheung Campus</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div style="position: relative;">
+		<video id="background-video" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg" style="width: 100%; height: auto;">
+			<source src="C:\Users\User\Downloads\snu.mp4" type="video/mp4">
+		</video>
+		<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+			<h2 class="text-white text-center">Welcome to Seoul National University</h2>
+		</div>
+	</div>
+
+	<div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <a href="E:\KEC\SEM 4\HTML PROGRAM\snuentrance.html" target="_blank">
+                <img src="https://en.snu.ac.kr/webdata/boardimages/ennews/631zd4cze04z433z6d8z342zc4az533z3f0z20bza9.jpg" alt="Entrance">
+              </a>
+              <div class="caption">
+                <h3>News Entrance Ceremony</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <a href="E:\KEC\SEM 4\HTML PROGRAM\snuceremony.html" target="_blank">
+                <img src="https://en.snu.ac.kr/webdata/boardimages/ennews/fc3z860z76cz930z63az49bz460z7cdz1f6zbf4zdc.jpg" alt="ceremony">
+              </a>
+              <div class="caption">
+                <h3>The 77th commencement ceremony</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <a href="https://en.snu.ac.kr/webdata/boardimages/ennews/img_20230309_001.jpg" target="_blank">
+                <img src="https://en.snu.ac.kr/webdata/boardimages/ennews/img_20230309_001.jpg" alt="Mountains">
+              </a>
+              <div class="caption">
+                <h3>SNU Volunteer Corps in Nepal, Coloring Local Students’ Dreams with Passion</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>      
